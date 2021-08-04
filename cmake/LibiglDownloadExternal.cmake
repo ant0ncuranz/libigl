@@ -42,8 +42,8 @@ endfunction()
 ## CGAL
 function(igl_download_cgal)
 	igl_download_project(cgal
-		GIT_REPOSITORY https://github.com/CGAL/cgal.git
-		GIT_TAG        f7c3c8212b56c0d6dae63787efc99093f4383415
+		GIT_REPOSITORY https://github.com/ant0ncuranz/cgal.git
+		GIT_TAG        1082f223db46829c6bcfc0e0f338593275453a38
 	)
 endfunction()
 
